@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Form</title>
+</head>
+<body>
+    <h2>Landing page</h2>
+    <form action="backend.php" method="">
+        <div><label for="fname">first name:</label>
+            <input type="text" name="fname" id="fname" placeholder="Spoongebob" required></div>
+            <br>
+        <div><label for="lname">last name:</label>
+            <input type="text" name="lname" id="lname" placeholder="Squarepants" required></div>
+            <br>
+            <div>
+                <label for="pass">password:</label>
+                <input type="password" id="pass" name="pass" maxlength="12 " required>
+            </div>
+            <br>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" name="email" id= "email" placeholder="spant.com">
+            </div>
+            <br>
+            <div>
+                <label for="bdate">birthdate:</label>
+                <input type="date" name="bdate" id="bdate">
+                <br>
+                <div>
+                    <label for="titile">title:</label>
+
+                    <label>Mr.</label>
+                    <input type="radio" name="title" value="Mr.">
+
+                    <label>Mrs.</label>
+                    <input type="radio" name="title" value="Mrs.">
+
+                    <label>Phd.</label> 
+                    <input type="radio" name="title" value="Phd.">
+                </div>
+                <input type="button" value="submit">
+            </div>
+        <div><input type="reset"></div>
+        
+    </form>
+</body>
+</html>
